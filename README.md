@@ -2,9 +2,9 @@
 AniBlog is a sleek, modern, and AI-powered blog application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and styled using Tailwind CSS. It offers users a smooth browsing experience across various blog categories, while admins enjoy AI-enhanced writing tools for content generation.
 
 🚀 Live Demo
-Frontend: https://aniblog-v1.vercel.app
+Frontend: https://sarmila-mam.vercel.app/
 
-Backend: https://sharmila-mam-app.vercel.app/
+Backend: https://sarmila-mam-app.vercel.app/
 
 🛠️ Tech Stack
 Layer	Technology
@@ -68,5 +68,6 @@ If you like this project, please give it a ⭐️ on GitHub!
 
 📄 License
 This project is licensed under the MIT License.
+
 
 
