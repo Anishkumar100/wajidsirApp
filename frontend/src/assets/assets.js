@@ -6,6 +6,7 @@ import blog_pic_5 from './blog_pic_5.png';
 import blog_pic_6 from './blog_pic_6.png';
 import blog_pic_7 from './blog_pic_7.png';
 import blog_pic_8 from './blog_pic_8.png';
+import logoPic from "./logoPic.png"
 import blog_pic_9 from './blog_pic_9.png';
 import blog_pic_10 from './blog_pic_10.png';
 import facebook_icon from './facebook_icon.svg'
@@ -43,6 +44,7 @@ export const assets = {
     logo_light,
     blog_icon,
     add_icon,
+    logoPic,
     email_icon,
     upload_area,
     user_icon,
