@@ -2,23 +2,29 @@ import multer from "multer";
 
 const storage = multer.diskStorage({});
 
+const allowedMimes = [
+    "application/pdf",
+    "application/msword",
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "application/vnd.ms-excel",
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "application/vnd.ms-powerpoint",
+    "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "text/plain"
+];
+
 const fileFilter = (req, file, cb) => {
-    if (
-        file.mimetype.startsWith("image/") || 
-        file.mimetype === "application/pdf" ||
-        file.mimetype === "application/msword" || 
-        file.mimetype === "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    ) {
+    if (file.mimetype.startsWith("image/") || allowedMimes.includes(file.mimetype)) {
         cb(null, true);
     } else {
         cb(new Error("Unsupported file type!"), false);
     }
 };
 
+// change here: multer config stays same, now usable for multiple files
 const upload = multer({ storage, fileFilter });
 
 export default upload;
-
 
 
 /*
