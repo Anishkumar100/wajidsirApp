@@ -157,7 +157,7 @@ export const AddBlog = () => {
               <input
                 id="pdf-upload"
                 type="file"
-                accept=".pdf,.doc,.docx"
+                accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt,image/*"
                 multiple
                 onChange={(e) => setPdfFiles(Array.from(e.target.files))}
                 className="hidden"
