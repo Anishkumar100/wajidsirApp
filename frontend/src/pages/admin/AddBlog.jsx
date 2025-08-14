@@ -146,7 +146,7 @@ export const AddBlog = () => {
               onChange={(e) => setSubTitle(e.target.value)} value={subTitle} />
 
 
-            <p className='mt-4'>Upload PDFs / DOCX (optional)</p>
+            <p className='mt-4'>Upload Any Study Material (optional)</p>
             <div className="mt-2 relative inline-block">
               <label
                 htmlFor="pdf-upload"
