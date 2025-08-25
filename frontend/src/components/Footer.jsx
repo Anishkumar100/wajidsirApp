@@ -17,7 +17,7 @@ export const Footer = () => {
           <img
             src={darkMode === true ? assets.logo_dark : assets.logo_light}
             alt="logo"
-            className='w-32 sm:w-44'
+            className='w-32 sm:w-44 rounded-full'
           />
           <p className='max-w-[410px] mt-6'>
             At SPARK SOLUTIONS, we create tech-powered solutions for real-world problems. Discover, learn, and innovate with every scroll!
