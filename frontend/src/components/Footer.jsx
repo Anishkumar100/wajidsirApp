@@ -4,9 +4,9 @@ import { useAppContext } from '../context/AppProvider'
 
 export const Footer = () => {
 
-  const {setDarkMode,darkMode} = useAppContext()
+  const { setDarkMode, darkMode } = useAppContext()
 
-  
+
   return (
     <div className='px-6 md:px-16 lg:px-24 xl:px-32 bg-primary/3 dark:bg-gray-900 dark:text-white'>
 
@@ -20,7 +20,7 @@ export const Footer = () => {
             className='w-32 sm:w-44'
           />
           <p className='max-w-[410px] mt-6'>
-            AniBlOG is your go-to space for creative insights, trending topics, and thoughtful reads. Explore fresh perspectives, engage with ideas, and stay inspired through every scroll on AniBlOG.
+            At SPARK SOLUTIONS, we create tech-powered solutions for real-world problems. Discover, learn, and innovate with every scroll!
           </p>
         </div>
 
@@ -50,8 +50,8 @@ export const Footer = () => {
       </div>
 
       <p className='py-4 text-center text-sm md:text-base text-gray-500/80 dark:text-gray-400'>
-        Copyright © 2025 AniBlog<br />
-        Anish Kumar - All Rights Reserved
+        Copyright © 2025 SPARK SOLUTIONS<br />
+        All Rights Reserved
       </p>
 
     </div>
