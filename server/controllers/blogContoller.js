@@ -233,7 +233,7 @@ export const generateContent = async (req,res)=>
     {
         const {prompt} = req.body
 
-        const response = await main(prompt + `Generate a blog content for this topic in a funny manner and make sure the audience learn a lot in funny manner.` ) // this is my own prompt to make the content a blog type content by adding this
+        const response = await main(prompt + `Generate a blog content for this topic and make sure the audience learn a lot.` ) // this is my own prompt to make the content a blog type content by adding this
 
         res.json({success:true,response})
     } 
