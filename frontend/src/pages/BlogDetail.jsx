@@ -88,12 +88,12 @@ export const BlogDetail = () => {
 
                 <NavBar />
                 <img src={darkMode === true ? assets.darkGradientBackground : assets.gradientBackground} alt="" className=' absolute top-20 -z-1 opacity-80 ' />
-                {/*Section 1 (title,small description and date). And here we are going to use moment npm to display the date MMMM- Complete month, Do- Date of , YYYY - year number*/}
                 <div className=' text-center mt-20 text-gray-600 dark:text-gray-300 '>
+                {/*Section 1 (title,small description and date). And here we are going to use moment npm to display the date MMMM- Complete month, Do- Date of , YYYY - year number*/}
                     <p className=' text-primary py-4 font-medium'>Published on {Moment(data.createdAt).format('MMMM Do YYYY')}</p>
                     <h1 className=' text-2xl sm:text-5xl font-semibold max-w-2xl mx-auto text-gray-800 dark:text-white'>{data.title}</h1>
                     <h2 className=' my-5 max-w-lg truncate mx-auto'>{data.subTitle}</h2>
-                    <p className=' inline-block py-1 px-4 rounded-full mb-6 border text-sm border-primary/35 bg-primary/5 font-medium text-primary'>Anish Kumar</p>
+                    <p className=' inline-block py-1 px-4 rounded-full mb-6 border text-sm border-primary/35 bg-primary/5 font-medium text-primary'>Sarmila Har Beagam</p>
                 </div>
 
                 {/*Section 2 image of blog, description, comment,comment box and the social media icon */}
