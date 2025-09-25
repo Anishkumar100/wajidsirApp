@@ -1,10 +1,10 @@
-🧠 sharmila Mam's blog app — AI Powered MERN Blog App
+🧠 Wajid Khan Sir's blog app — AI Powered MERN Blog App
 AniBlog is a sleek, modern, and AI-powered blog application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and styled using Tailwind CSS. It offers users a smooth browsing experience across various blog categories, while admins enjoy AI-enhanced writing tools for content generation.
 
 🚀 Live Demo
-Frontend: https://sarmila-mam.vercel.app/
+Frontend: https://mwk.vercel.app/
 
-Backend: https://sarmila-mam-app.vercel.app/
+Backend: https://mwk-backend.vercel.app/
 
 🛠️ Tech Stack
 Layer	Technology
