@@ -29,7 +29,7 @@ export const Layout = () => {
           onClick={() => navigate('/')}
           className='text-lg sm:text-2xl font-semibold cursor-pointer'
         >
-          Dr. K. Sarmila Har Beagam
+          Dr. Mohammed Wajid Khan
         </h1>
 
         <div className='flex sm:flex-row items-center gap-2 sm:gap-4 mr-4'>

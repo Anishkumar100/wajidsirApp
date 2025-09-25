@@ -36,15 +36,15 @@ export const Header = () => {
             </h1>
 
             <p className="mt-2 text-lg sm:text-xl md:text-2xl font-medium text-gray-700 dark:text-gray-200">
-              Dr. K. Sarmila Har Beagam
+              Dr. Mohammed Wajid Khan
             </p>
 
             <p className="mt-1 text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400">
-              Assistant Professor (Sel. Gr.), Department of Electrical and Electronics Engineering
+              Assistant Professor, Department of Information Technology
             </p>
 
             <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 mb-6">
-              B.E., M.E., Ph.D.
+              B.Tech.,M.Tech.,Ph.D.
             </p>
 
             <p className="max-w-3xl mx-auto text-center text-gray-600 dark:text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed border-t border-b border-gray-200 dark:border-gray-700 py-6">

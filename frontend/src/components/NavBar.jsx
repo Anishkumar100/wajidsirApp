@@ -17,7 +17,7 @@ export const NavBar = () => {
         onClick={() => navigate('/')}
         className='text-lg sm:text-2xl font-semibold cursor-pointer'
       >
-        Dr. K. Sarmila Har Beagam
+        Dr. Mohammed Wajid Khan
       </h1>
 
 
